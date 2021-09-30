@@ -1,0 +1,150 @@
+.the-lesson-details {
+  padding:10px;
+  position: relative;
+  width: 100%;
+  border-radius:20px;
+  text-align: center;
+  border: 1px solid rgb(187, 165, 165);
+  box-shadow: 1px 1px 1px black;
+}
+
+.the-lesson-details button {
+  position:relative;
+  left:43%;
+  top:-10px;
+  width: 100px;
+  height:30px;
+  border-radius:20px;
+  background-color:red;
+  box-shadow: 2px 1px 1px 2px rgb(30, 192, 197);
+}
+
+.details-desc {
+  position: relative;
+  top: 15px;
+  right:35%;
+}
+
+.contenu-desc {
+  border-top: 1px solid rgb(199, 135, 135);
+  border-bottom: 1px solid rgb(199, 135, 135);
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  margin-bottom: 35px;
+  padding-top: 20px;
+  position: relative;
+  left:35%;
+  display: flex;
+}
+
+.contenu-desc p{
+  text-align: justify;
+}
+
+.the-lesson {
+  padding: 20px;
+  position: relative;
+  top: 200px;
+  width: 80%;
+  box-shadow: 1px 1px 2px black;
+  border: 1px solid black;
+}
+.title-subtitle-desc {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 120px;
+  border: 1px solid black;
+  margin-top: 20px;
+  border-radius:20px;
+  border: 1px solid rgb(187, 165, 165);
+  box-shadow: 1px 1px 1px black;
+}
+.lesson-subtitle {
+  left: 50%;
+  position: absolute;
+  top:10px;
+  height:30px;
+  background-color: rgb(223, 164, 164);
+
+}
+
+.lesson-title{
+  left: 20%;
+  position: absolute;
+  top:10px;
+  height:30px;
+  background-color: rgb(223, 164, 164);
+}
+
+.lesson-desc {
+  height: 50px;
+  position: absolute;
+  top:50px;
+  background-color:rgb(112, 91, 91);
+}
+
+.the-chapter {
+  padding: 20px;
+  position: relative;
+  top: 10px;
+  width: 100%;
+  box-shadow: 1px 1px 2px black;
+  border: 1px solid black;
+}
+
+.the-chapter-info {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 60px;
+}
+
+.chapter-title{
+  position: absolute;
+  left: 30%;
+  background-color:rgb(63, 57, 57);
+  width: 30%;
+}
+.the-session {
+  padding: 20px;
+  display: flex;
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height:250px;
+  border: 1px solid black;
+
+}
+.session-title{
+  position: absolute;
+  left: 30%;
+  height: 25px;
+  width: 30%;
+  background-color:red;
+}
+.ul-input-file {
+  position: absolute;
+  top: 70px;
+  left: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.ul-textarea{
+  position: absolute;
+  top: 100px;
+  left: 15%;
+  display: flex;
+  flex-direction: row;
+}
+
+.ul-textarea textarea{
+  position:relative;
+  background-color: bisque;
+  margin:20px;
+  height:100px;
+}

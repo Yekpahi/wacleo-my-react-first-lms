@@ -1,0 +1,262 @@
+.conteneur {
+    position: relative;
+}
+
+/*Recent */
+
+.conteneurRecent {
+    position: relative;
+    top: 100px;
+}
+.recent {
+    border: 3px black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.recentContenu img {
+    position: absolute;
+    width: 100%;
+    height: 55%;
+}
+
+.buttona {
+    height: 25px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: red;
+    position: absolute;
+    left: 65%;
+    bottom: 3%;
+    color: white;
+    font-size: 15px;
+}
+.recentContenu h6 {
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    top: 48%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 90, 212);
+    opacity: 0.8;
+}
+
+.recentContenu h4 {
+    position: absolute;
+    top: 202px;
+    margin: 5px;
+    color: rgb(82, 66, 66);
+    font-size: 20px;
+}
+
+.recentContenu p {
+    margin: 5px;
+    text-align: justify;
+    color: rgb(82, 66, 66);
+    position: absolute;
+    top: 260px;
+}
+
+/* Populaire*/
+.conteneurPopulaire {
+    position: relative;
+    top: 140px;
+}
+.populaire {
+    border: 3px black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.populaireContenu {
+    background-color: white;
+    margin: 5px;
+    height: 350px;
+    width: 40%;
+    border: 1px solid rgb(180, 148, 148);
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:1px 1px 1px 1px rgb(102, 96, 96);
+}
+
+.populaireContenu img {
+    position: absolute;
+    width: 100%;
+    height: 55%;
+}
+.buttona {
+    height: 25px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: red;
+    position: absolute;
+    left: 65%;
+    bottom: 3%;
+    color: white;
+    font-size: 15px;
+}
+
+.populaireContenu h6 {
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    top: 54%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 90, 212);
+    opacity: 0.8;
+}
+.populaireContenu h4 {
+    position: absolute;
+    top: 222px;
+    margin: 5px;
+    color: rgb(82, 66, 66);
+    font-size: 20px;
+}
+
+.populaireContenu p {
+    margin: 5px;
+    text-align: justify;
+    color: rgb(82, 66, 66);
+    position: absolute;
+    top: 260px;
+}
+
+/* Tendance*/
+.conteneurTendance {
+    position: relative;
+    top: 180px;
+}
+.tendance {
+    border: 3px black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenuTendance {
+    background-color: white;
+    margin: 5px;
+    height: 350px;
+    width: 40%;
+    border: 1px solid rgb(180, 148, 148);
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:1px 1px 1px 1px rgb(102, 96, 96);
+}
+
+.contenuTendance img {
+    position: absolute;
+    width: 100%;
+    height: 55%;
+}
+.buttona {
+    height: 25px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: red;
+    position: absolute;
+    left: 65%;
+    bottom: 3%;
+    color: white;
+    font-size: 15px;
+}
+
+.contenuTendance h6 {
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    top: 54%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 90, 212);
+    opacity: 0.8;
+}
+.contenuTendance h4 {
+    position: absolute;
+    top: 222px;
+    margin: 5px;
+    color: rgb(82, 66, 66);
+    font-size: 20px;
+}
+
+.contenuTendance p {
+    margin: 5px;
+    text-align: justify;
+    color: rgb(82, 66, 66);
+    position: absolute;
+    top: 260px;
+}
+
+/* Tendance*/
+.conteneurGout {
+    position: relative;
+    top: 220px;
+}
+.gout {
+    border: 3px black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenuGout {
+    background-color: white;
+    margin: 5px;
+    height: 350px;
+    width: 40%;
+    border: 1px solid rgb(180, 148, 148);
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:1px 1px 1px 1px rgb(102, 96, 96);
+}
+
+.contenuGout img {
+    position: absolute;
+    width: 100%;
+    height: 55%;
+}
+.buttona {
+    height: 25px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: red;
+    position: absolute;
+    left: 65%;
+    bottom: 3%;
+    color: white;
+    font-size: 15px;
+}
+
+.contenuGout h6 {
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    top: 54%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 90, 212);
+    opacity: 0.8;
+}
+.contenuGout h4 {
+    position: absolute;
+    top: 222px;
+    margin: 5px;
+    color: rgb(82, 66, 66);
+    font-size: 20px;
+}
+
+.contenuGout p {
+    margin: 5px;
+    text-align: justify;
+    color: rgb(82, 66, 66);
+    position: absolute;
+    top: 260px;
+}
